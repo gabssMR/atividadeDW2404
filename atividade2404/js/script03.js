@@ -8,11 +8,10 @@ function informaIdade(){
     } else if(idade >= 0 && idade <= 12){
         resultado.innerHTML += "Criança";
     } else if(idade >= 13 && idade <= 18){
-        resultado.innerHTML += "Adolescente"
+        resultado.innerHTML += "Adolescente";
     } else if(idade > 18 && idade < 60){
-        resultado.innerHTML += "Adulto"
+        resultado.innerHTML += "Adulto";
     } else{
-        resultado.innerHTML += "Idoso"
+        resultado.innerHTML += "Idoso";
     }
-
 }
